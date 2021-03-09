@@ -33,7 +33,7 @@ canvas.height = window.innerHeight;
 context.translate(window.innerWidth / 2, window.innerHeight / 2);
 
 const image = new Image();
-image.src = "./assets/Pika.png";
+image.src = "./assets/pika.png";
 
 const loopingPikas = 40;
 const offsetDistance = 120;
