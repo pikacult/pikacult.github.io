@@ -78,7 +78,7 @@
 
   function displayError(thisForm, error) {
     thisForm.querySelector('.loading').classList.remove('d-block');
-    thisForm.querySelector('.error-message').innerHTML = error;
+    thisForm.querySelector('.error-message').innerHTML = '你以為這個有功能，我沒做拉～ 麻煩自己手動寄信 >W<';
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
